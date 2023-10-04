@@ -1,0 +1,21 @@
+body {
+    background-color:lightgray;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.btn-group {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-weight: bold;
+}
+

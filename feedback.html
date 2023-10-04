@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="images/converserbg.png" />
+    <title>SoleRelease Service Center</title>
+    <style>
+        body {
+            background-size: cover;
+            background-position: center;
+            background-color: #771128; 
+            font-family: 'Playfair Display SC', serif;
+            color: #FFFFFF; 
+            padding: 23px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color:  #d4af37; 
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 28px;
+            color: #771128; 
+        }
+
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #ba2e43; 
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        form {
+            text-align: center;
+            max-width: 420px;
+            margin: 0 auto;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: black; 
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 20px;
+            margin: 20px 0;
+            border: none;
+            border-radius: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: gray; /* Replace with your preferred submit button color */
+            color: #333333; /* Replace with your preferred button text color */
+            padding: 20px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: lightgray; /* Replace with your preferred button hover color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>SoleRelease Service Center</h3>
+        <p>Contact us through the form below:</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
